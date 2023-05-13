@@ -1,0 +1,54 @@
+.bookslist-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.input-field {
+  width: 400px;
+  height: 45px;
+  outline: none;
+  border: 2px solid rgba(11, 11, 11, 0.431);
+  border-radius: 10px;
+  padding-left: 15px;
+  font-family: "roboto";
+  font-weight: 500;
+  font-size: 15px;
+}
+.books-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.book-card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  margin-bottom: 50px;
+}
+.thumbnail {
+  width: 200px;
+  height: 250px;
+}
+
+.title {
+  font-family: "roboto";
+  font-weight: 600;
+  font-size: 20px;
+  color: #262626;
+  width: 200px;
+}
+.author {
+  font-family: "roboto";
+  font-weight: 500;
+  font-size: 14px;
+  color: #262626d5;
+  width: 200px;
+}

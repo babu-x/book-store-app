@@ -1,0 +1,46 @@
+.add-your-book-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 88vh;
+}
+.add-your-book-container-title {
+  font-family: "roboto";
+  font-weight: 600;
+  font-size: 30px;
+  color: #262727;
+  margin-bottom: 20px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+label {
+  font-size: 17px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 5px;
+}
+.input {
+  width: 300px;
+  height: 38px;
+  padding-left: 10px;
+  font-family: "roboto";
+  font-size: 14px;
+}
+.add-button {
+  width: 100px;
+  height: 38px;
+  font-family: "roboto";
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: rgba(57, 186, 255, 0.483);
+  color: #000;
+  border-radius: 4px;
+  margin-top: 5px;
+  cursor: pointer;
+}
